@@ -1,0 +1,151 @@
+body {
+
+	
+}
+
+nav a{
+
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 0 0 0 15px;
+
+}
+/*o hover tem que ser declarado apos os dois pontos e sem espaço*/
+nav a:hover { /*o 'hover' é usado para alterar o comportamento dos itens*/
+
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.produtos{
+
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+
+}
+
+.produtos li{
+
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	/*border-color: #000000;
+	border-width: 2px;
+	border-style: solid ;*/
+	border: 2px solid #000000;
+	border-radius: 10px;
+
+}
+
+.produtos li:hover{
+
+	border-color: #C78C19;
+}
+
+.produtos li:active{
+
+	border-color: #088C19;
+}
+
+.produtos li:hover h2{
+
+	font-size: 34px;
+
+}
+
+#banner{
+	
+	width: 100%;
+}
+
+.principal{
+
+	background-color: #cccccc;
+	padding: 30px;
+
+}
+
+.titulo-principal{
+
+	padding-left: 20px;
+	
+}
+
+
+.titulo-centralizado{
+
+	text-align: center;
+}
+
+id
+
+p{
+	text-align: center;
+
+} 
+
+#missao {
+
+	font-size: 20px;
+}
+
+em strong {
+
+	color: #FF0000;
+}
+
+.itens {
+
+	font-style: italic;
+}
+
+.beneficios {
+
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+
+ul{
+
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imgbeneficios{
+	width: 50%;
+}
+
+footer{
+	text-align: center;
+	background: url(bg.jpg);
+	padding: 40px 0;
+
+}
+
+.copyright{
+
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0;
+}
